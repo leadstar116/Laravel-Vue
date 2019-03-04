@@ -20,6 +20,38 @@ let routes = [
                 component: require('./views/pages/blank').default
             },
             {
+                path: '/inventory',
+                component: require('./views/inventory/index').default
+            },
+            {
+                path: '/receiving',
+                component: require('./views/receiving/index').default
+            },
+            {
+                path: '/shipping',
+                component: require('./views/shipping/index').default
+            },
+            {
+                path: '/transportation',
+                component: require('./views/transportation/index').default
+            },
+            {
+                path: '/shop_floor',
+                component: require('./views/shop_floor/index').default
+            },
+            {
+                path: '/quality_control',
+                component: require('./views/quality_control/index').default
+            },
+            {
+                path: '/food_safety',
+                component: require('./views/food_safety/index').default
+            },
+            {
+                path: '/resource',
+                component: require('./views/resource/index').default
+            },
+            {
                 path: '/configuration',
                 component: require('./views/configuration/configuration').default
             },

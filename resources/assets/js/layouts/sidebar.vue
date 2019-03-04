@@ -17,13 +17,40 @@
                         <router-link to="/home" exact><i class="fa fa-home"></i> <span class="hide-menu">Home</span></router-link>
                     </li>
                     <li>
-                        <router-link to="/blank" exact><i class="fa fa-user"></i> <span class="hide-menu">Blank Page</span></router-link>
-                    </li>
-                    <li>
                         <router-link to="/user" exact><i class="fa fa-users"></i> <span class="hide-menu">User</span></router-link>
                     </li>
                     <li>
-                        <router-link to="/task" exact><i class="fa fa-tasks"></i> <span class="hide-menu">Task</span></router-link>
+                        <router-link to="/inventory" exact><i class="fa fa-tasks"></i> <span class="hide-menu">Inventory</span></router-link>
+                    </li>
+                    <li>
+                        <router-link to="/shipping" exact><i class="fa fa-tasks"></i> <span class="hide-menu">Shipping</span></router-link>
+                    </li>
+                    <li>
+                        <router-link to="/receiving" exact><i class="fa fa-tasks"></i> <span class="hide-menu">Receiving</span></router-link>
+                    </li>
+                    <li>
+                        <router-link to="/transportation" exact><i class="fa fa-tasks"></i> <span class="hide-menu">Transportation</span></router-link>
+                    </li>
+                    <li>
+                        <router-link to="/shop_floor" exact><i class="fa fa-tasks"></i> <span class="hide-menu">Shop Floor</span></router-link>
+                    </li>
+                    <li>
+                        <router-link to="/quality_control" exact><i class="fa fa-tasks"></i> <span class="hide-menu">Quality Control</span></router-link>
+                    </li>
+                    <li>
+                        <router-link to="/food_safety" exact><i class="fa fa-tasks"></i> <span class="hide-menu">Food Safety</span></router-link>
+                    </li>
+                    <li>
+                        <router-link to="/resource" exact><i class="fa fa-tasks"></i> <span class="hide-menu">R & D</span></router-link>
+                    </li>
+                    <li>
+                        <router-link to="/blank" exact><i class="fa fa-train"></i> <span class="hide-menu">Maintenance</span></router-link>
+                    </li>
+                    <li>
+                        <router-link to="/blank" exact><i class="fa fa-tasks"></i> <span class="hide-menu">Reporting</span></router-link>
+                    </li>
+                    <li>
+                        <router-link to="/blank" exact><i class="fa fa-tasks"></i> <span class="hide-menu">KPI</span></router-link>
                     </li>
                     <li>
                         <router-link to="/anything" exact><i class="fa fa-exclamation-triangle"></i> <span class="hide-menu">Error Page</span></router-link>
